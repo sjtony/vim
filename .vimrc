@@ -139,11 +139,6 @@ call plug#end()
 "   " Then reload .vimrc and :PlugInstall to install plugins.
 "   "
 
-
-
-
-
-
 " vimwiki - Personal Wiki for Vim
 " https://github.com/vimwiki/vimwiki
 set nocompatible
@@ -159,7 +154,6 @@ let g:instant_markdown_autostart = 0	" disable autostart
 map <leader>md :InstantMarkdownPreview<CR>
 
 
-
 "" for preview  but not working
 "" can't install  due to no npm
 "Uncomment to override defaults:
@@ -169,3 +163,5 @@ map <leader>md :InstantMarkdownPreview<CR>
 "let g:instant_markdown_allow_unsafe_content = 1
 "let g:instant_markdown_allow_external_content = 0
 "let g:instant_markdown_mathjax = 1
+
+

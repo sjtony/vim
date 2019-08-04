@@ -1,4 +1,24 @@
+# ignore everthing
 *
-!.gitignore
-!.vimrc
+# ...even if they are in subdirectories
+!*/		## if uncomment, then the same pattern file also be tracked even in the subdirectories 
+
+
+
 !.bashrc
+# but except following file
+!.gitignore
+!.vimrc 
+!*.vim
+!.sj_git_knowHOW
+## and ...
+!/.vim/autoload/
+!/.vim/ftdetect/
+!/.vim/indent/
+!/.vim/plugged/
+!/.vim/plugin/
+!/.vim/syntax/
+!/.vim/vim/
+!.tel
+!.bits_analog
+!.bits_dump

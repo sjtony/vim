@@ -8,6 +8,7 @@
 !.bashrc
 # but except following file
 !.gitignore
+!.gitconfig
 !.vimrc 
 !*.vim
 !.sj_git_knowHOW
